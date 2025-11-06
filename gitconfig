@@ -1,0 +1,11 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = LucasAraujo
+	email = lucas.araujo@dtidigital.com.br
+[alias]
+	s = !git status -s
+	l = !git log --graph --pretty=format:'%C(yellow)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
