@@ -23,7 +23,7 @@ function parse_git_branch () {
 setopt prompt_subst
  
 # Customize Prompt
-PROMPT='%(?.%F{green}💻.%F{red}⛈️%?)%f %B%F{magenta}$(parse_git_branch)%F{99}%1~%F{black} %# %f%b'
+PROMPT='%(?.%F{green}🍺.%F{red}⛈️%?)%f %B%F{magenta}$(parse_git_branch)%F{99}%1~%F{black} %# %f%b'
 
  
  
